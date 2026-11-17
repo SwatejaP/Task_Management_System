@@ -1,0 +1,14 @@
+{
+  "name": "mern-stack-app",
+  "version": "1.0.0",
+  "description": "Production-ready MERN Stack Application",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": ["mern", "react", "express", "nodejs", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
+
